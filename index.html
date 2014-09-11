@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="http://cloud.github.com/downloads/processing-js/processing-js/processing-1.4.1.min.js"></script>
+	<script type="text/processing" data-processing-target="mycanvas" id="processing_script"></script>
+<script>
+(function() {
+
+  $.ajax({
+    url: './algorithm.json',
+    dataType : 'json',
+    cache: false,
+    success : function(data) {
+      for (var i in data) {
+        $("#algorithm_selector").append('<option value="' + data[i].path + '">' + data[i].name + '</option>');
+      }
+
+      $('#algorithm_selector').on('change', function() {
+        var path = $('#algorithm_selector option:selected').val();
+        console.log(path);
+        updateAlgorithm(path);
+      });
+
+      updateAlgorithm(data[0].path);
+    }
+  });
+
+  function updateAlgorithm(path) {
+    console.log("update to " + path);
+
+    $.ajax({
+      url: path,
+      dataType : 'text',
+      cache: false,
+      success : function(data) {
+        console.log("updated");
+
+        processing_script.innerHTML = data;
+        Processing.reload();
+      }
+    });
+  }
+})();
+</script>
+<body>
+  <select id="algorithm_selector"></select>
+  <canvas id="mycanvas"></canvas>
+</body>
+</html>

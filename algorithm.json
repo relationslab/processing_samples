@@ -1,0 +1,12 @@
+[
+  {
+    "name" : "homingmesh",
+    "author" : "Kubara",
+    "path" : "./algorithm/homingmesh.alg"
+  },
+  {
+    "name" : "kato",
+    "author" : "Kato",
+    "path" : "./algorithm/kato.alg"
+  }
+]
