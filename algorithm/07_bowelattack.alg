@@ -21,7 +21,7 @@ void mouseClicked(){
     float x = r*cos(rad)+mouseX;
     float y = r*sin(rad)+mouseY;
 
-    fill(b);
+    fill(min(255, b));
     ellipse(x, y, r, r);
     ++c;
   }
