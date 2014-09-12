@@ -25,6 +25,11 @@
     "path" : "./algorithm/05_flipse.alg"
   },
   {
+    "name" : "06_fancyfan",
+    "author" : "Kubara",
+    "path" : "./algorithm/06_fancyfan.alg"
+  },
+  {
     "name" : "kato",
     "author" : "Kato",
     "path" : "./algorithm/kato.alg"
