@@ -1,8 +1,28 @@
 [
   {
-    "name" : "homingmesh",
+    "name" : "01_clickrect",
     "author" : "Kubara",
-    "path" : "./algorithm/homingmesh.alg"
+    "path" : "./algorithm/01_clickrect.alg"
+  },
+  {
+    "name" : "02_mouspot",
+    "author" : "Kubara",
+    "path" : "./algorithm/02_mouspot.alg"
+  },
+  {
+    "name" : "03_homingmesh",
+    "author" : "Kubara",
+    "path" : "./algorithm/03_homingmesh.alg"
+  },
+  {
+    "name" : "04_blackflare",
+    "author" : "Kubara",
+    "path" : "./algorithm/04_blackflare.alg"
+  },
+  {
+    "name" : "05_flipse",
+    "author" : "Kubara",
+    "path" : "./algorithm/05_flipse.alg"
   },
   {
     "name" : "kato",
