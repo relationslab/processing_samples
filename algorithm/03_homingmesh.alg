@@ -2,7 +2,7 @@ void setup(){
   size(720, 480);
   background(0);
   frameRate(120);
-  strokeWeight(1);
+  strokeWeight(2);
   colorMode(HSB, 360, 100, 100);
 }
 

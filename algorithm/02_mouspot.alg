@@ -2,7 +2,7 @@ final int SIZE = 70;
 final int R = 120;
 final int RECT_COUNT = 10;
 void setup(){
-  size(480, 480);
+  size(640, 480);
   background(255);
   frameRate(60);
   noStroke();
