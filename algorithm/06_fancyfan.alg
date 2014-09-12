@@ -14,7 +14,7 @@ final int COUNT = 120;
 final int COUNT_LINE = COUNT*3;
 void mouseClicked(){
   float hb = random(0, 360);
-  float x = mouseX;
+  float x = (mouseX-width/2)*2+width/2;
   float y = (mouseY-height/2)*2+height/2;
 
   for(int i=0; i<COUNT; i++){
