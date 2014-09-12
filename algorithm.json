@@ -30,6 +30,11 @@
     "path" : "./algorithm/06_fancyfan.alg"
   },
   {
+    "name" : "07_bowelattack",
+    "author" : "Kubara",
+    "path" : "./algorithm/07_bowelattack.alg"
+  },
+  {
     "name" : "kato",
     "author" : "Kato",
     "path" : "./algorithm/kato.alg"
