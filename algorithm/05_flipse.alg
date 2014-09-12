@@ -21,8 +21,8 @@ void setup(){
     if(h<0) h+=360;
     colors[i] = color(h, 40, 100);
     rads[i] = 0.5;
-    xs[i] = (int)(i/15+0.5)*R;
-    ys[i] = (int)(i%15+0.5)*R;
+    xs[i] = ((int)(i/15)+0.5)*R;
+    ys[i] = ((int)(i%15)+0.5)*R;
   }
 }
 
