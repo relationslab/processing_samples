@@ -1,39 +1,115 @@
 [
   {
-    "name" : "01_clickrect",
+    "name" : "01_clickrect[click]",
     "author" : "Kubara",
     "path" : "./algorithm/01_clickrect.alg"
   },
   {
-    "name" : "02_mouspot",
+    "name" : "02_mouspot[mousemove]",
     "author" : "Kubara",
     "path" : "./algorithm/02_mouspot.alg"
   },
   {
-    "name" : "03_homingmesh",
+    "name" : "03_homingmesh[mousemove]",
     "author" : "Kubara",
     "path" : "./algorithm/03_homingmesh.alg"
   },
   {
-    "name" : "04_blackflare",
+    "name" : "04_blackflare[click]",
     "author" : "Kubara",
     "path" : "./algorithm/04_blackflare.alg"
   },
   {
-    "name" : "05_flipse",
+    "name" : "05_flipse[drag]",
     "author" : "Kubara",
     "path" : "./algorithm/05_flipse.alg"
   },
   {
-    "name" : "06_fancyfan",
+    "name" : "06_fancyfan[clickpos]",
     "author" : "Kubara",
     "path" : "./algorithm/06_fancyfan.alg"
   },
   {
-    "name" : "07_bowelattack",
+    "name" : "07_bowelattack[clickpos]",
     "author" : "Kubara",
     "path" : "./algorithm/07_bowelattack.alg"
   },
+  {
+    "name" : "08_flower[clickpos]",
+    "author" : "Kubara",
+    "path" : "./algorithm/08_flower.alg"
+  },
+  {
+    "name" : "09_circlequeue[drag]",
+    "author" : "Kubara",
+    "path" : "./algorithm/09_circlequeue.alg"
+  },
+  {
+    "name" : "10_fude[drag]",
+    "author" : "Kubara",
+    "path" : "./algorithm/10_fude.alg"
+  },
+  {
+    "name" : "11_fudetail[auto]",
+    "author" : "Kubara",
+    "path" : "./algorithm/11_fudetail.alg"
+  },
+  {
+    "name" : "12_spotlights[auto]",
+    "author" : "Kubara",
+    "path" : "./algorithm/12_spotlights.alg"
+  },
+  {
+    "name" : "13_greeng[clickpos]",
+    "author" : "Kubara",
+    "path" : "./algorithm/13_greeng.alg"
+  },
+  {
+    "name" : "14_flyingfish[auto]",
+    "author" : "Kubara",
+    "path" : "./algorithm/14_flyingfish.alg"
+  },
+  {
+    "name" : "15_bouncecircle[click]",
+    "author" : "Kubara",
+    "path" : "./algorithm/15_bouncecircle.alg"
+  },
+  {
+    "name" : "16_sparking[clickpos]",
+    "author" : "Kubara",
+    "path" : "./algorithm/16_sparking.alg"
+  },
+  {
+    "name" : "17_painter[drag]",
+    "author" : "Kubara",
+    "path" : "./algorithm/17_painter.alg"
+  },
+  {
+    "name" : "18_scratchhanger[drag]",
+    "author" : "Kubara",
+    "path" : "./algorithm/18_scratchhanger.alg"
+  },
+  {
+    "name" : "19_whitespider[drag]",
+    "author" : "Kubara",
+    "path" : "./algorithm/19_whitespider.alg"
+  },
+  {
+    "name" : "20_kimo[clickpos]",
+    "author" : "Kubara",
+    "path" : "./algorithm/20_kimo.alg"
+  },
+  {
+    "name" : "21_sliderect[clickpos]",
+    "author" : "Kubara",
+    "path" : "./algorithm/21_sliderect.alg"
+  },
+  {
+    "name" : "22_mandelbrot[click]",
+    "author" : "Kubara",
+    "path" : "./algorithm/22_mandelbrot.alg"
+  },
+
   {
     "name" : "kato",
     "author" : "Kato",
