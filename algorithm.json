@@ -60,7 +60,7 @@
     "path" : "./algorithm/12_spotlights.alg"
   },
   {
-    "name" : "13_greeng[clickpos]",
+    "name" : "13_greeng[drag]",
     "author" : "Kubara",
     "path" : "./algorithm/13_greeng.alg"
   },
