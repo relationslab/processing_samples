@@ -111,10 +111,34 @@
   },
 
   {
-    "name" : "23_circle",
+    "name" : "23_circle_kato",
     "author" : "Kato",
-    "path" : "./algorithm/23_circle.alg"
+    "path" : "./algorithm/23_circle_kato.alg"
   },
+
+  {
+    "name" : "24_circle_kato",
+    "author" : "Kato",
+    "path" : "./algorithm/24_circle_kato.alg"
+  },
+
+  {
+    "name" : "25_stick_kato",
+    "author" : "Kato",
+    "path" : "./algorithm/25_stick_kato.alg"
+  },
+  {
+    "name" : "26_game_kato",
+    "author" : "Kato",
+    "path" : "./algorithm/26_game_kato.alg"
+  },
+  {
+    "name" : "27_water_kato",
+    "author" : "Kato",
+    "path" : "./algorithm/27_water_kato.alg"
+  },
+
+
 
   {
     "name" : "kato",
