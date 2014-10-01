@@ -111,6 +111,12 @@
   },
 
   {
+    "name" : "23_circle",
+    "author" : "Kato”,
+    "path" : "./algorithm/23_circle.alg"
+  },
+
+  {
     "name" : "kato",
     "author" : "Kato",
     "path" : "./algorithm/kato.alg"
