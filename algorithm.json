@@ -110,12 +110,7 @@
     "path" : "./algorithm/22_mandelbrot.alg"
   },
 
-  {
-    "name" : "23_circle",
-    "author" : "Kato”,
-    "path" : "./algorithm/23_circle.alg"
-  },
-
+  
   {
     "name" : "kato",
     "author" : "Kato",
